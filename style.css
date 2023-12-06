@@ -1,0 +1,272 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'twd';
+    src: url("../betu/Amatic-Bold.ttf");
+}
+html{
+    background-color: #6B662B;
+    font-family: 'twd';
+    font-size: 25px;
+}
+main { 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-basis: 100%;
+    padding: 5%; 
+}
+body { 
+    margin: 0; 
+    padding: 0; 
+} 
+header { 
+    background-color: #6B662B; 
+    color: #000000;
+    padding: 20px; 
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+header#ugras{
+    background-image: url("../Atlanta.jpg");
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 80vw;
+    font-size: 60px;
+    margin: auto;
+    color: #BBB459;
+}
+header.alcim{
+    background-color: #928E58;
+    border-radius: 10px;
+    margin: 2%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 98%;
+}
+nav {
+    flex: 1 1 100%;
+    width: 100%;
+    background-color: #BBB459;
+    height: fit-content;   
+}
+nav ul {
+    list-style-type: none;
+    padding: 1%;
+    margin: 0;
+    width: 100%;
+    justify-content: center;
+}
+nav ul li a {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #000000;
+}
+nav ul li a:hover {
+    color: #000000;
+    background-color: #928E58; 
+}
+nav ul li a#current {
+    color: #ffffff;
+    background-color:
+    #6B662B;
+    text-decoration: none;
+}
+section { 
+    width: 98%;
+    margin: 2%; 
+    border-radius: 10px;
+    padding: 10%; 
+    flex-basis: 100%;
+    background-color: #BBB459;
+    color: #000000;
+} 
+
+.karakter{
+    font-weight: bold;
+}
+.karakterkep{
+    margin: 15px;
+    border-radius: 15px;
+    height: 250px;
+    width: 300px;
+}
+
+img{
+    max-width: 98%;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 2%;
+    float: inline-end;
+}
+footer { 
+    background-color: #4A460C; 
+    color: #000000;
+    padding: 10px; 
+    text-align: center; 
+}
+article{
+    flex-basis: 100%;
+    background-color: #BBB459;
+    width: 98%;
+    border-radius: 10px;
+    margin: 2%;
+    padding: 2%;
+}
+.ugrik{
+    width: 100%;
+    text-align: right;
+}
+.ugrik a{
+    font-size: 3em;
+    color: #000000;
+    text-decoration: none;
+}
+.quiz{
+    height: 50%;
+    width: 98%;
+    border-radius: 15px;
+}
+#images{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.galleria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 90vw;
+    height: 90vw;
+    padding: 2%;
+}
+.eredmeny{
+    display: none;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 98%;
+    margin: 2%;
+}
+.result{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: block;
+    border-radius: 15px;
+}
+.gomb{
+    border-radius: 10px;
+    margin: 20px;
+    font-family: 'twd';
+    font-size: 20px;
+    padding: 5px;
+}
+.box{
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+}
+label.error{
+    color: #ffffff;
+}
+@media all and (min-width: 841px){
+    header#ugras{
+        height: 60vw;
+    }
+    nav ul li a{
+        border-radius: 8px;
+        margin: 10px;
+        padding: 10px;
+    }
+    nav ul li{
+        display: inline-block;
+        padding: 10px;
+    }
+    nav{
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    article{
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+    }
+    div{
+        flex-direction: row;
+        display: flex;
+        width: 100%;
+    }
+    .quiz{
+        height: 80%;
+        width: 80px;
+    }
+    .ugrik{
+        display: block;
+    }
+    .galleria{
+        height: 60vw;
+    }
+    .eredmeny{
+        flex-basis: 50%;
+    }
+    .result{
+        width: 70%;
+    }
+}
+
+@media all and (min-width: 900px){
+    header#ugras{
+        height: 40vw;
+    }
+    section{
+        flex-basis: 46%;
+        margin: 2%;
+        padding: 2%;
+    }
+    main{
+        align-items: flex-start;
+    }
+    div{
+        margin-bottom: 10px;
+    }
+    .ugrik{
+        width: 100%;
+        text-align: right;
+    }
+    .ugrik a{
+        font-size: 3em;
+        color: #000000;
+        text-decoration: none;
+    }
+    figure{
+        flex-basis: 25%;
+    }
+    .quiz{
+        width: 98%;
+        margin: 2px;
+        height: 100%;
+    }
+    .galleria{
+        height: 50vw;
+    }
+    .eredmeny{
+        flex-basis: 100%;
+    }
+    .result{
+        width: 50%;
+    }
+}

@@ -1,0 +1,284 @@
+<!DOCTYPE html> 
+<html lang="hu"> 
+<head> <title>The walking dead-quiz</title>
+        <meta name="author" content="Kis Virág Anna">
+        <meta charset="UTF-8">
+        <meta name="copyright" content="Beadandó">
+        <link href="../css/style.css" rel="stylesheet" >
+        <link href="../css/mfglabs_iconset.css" rel="stylesheet" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-ico" href="../favicon.ico">
+</head> 
+<body onLoad="figyelmeztet()">
+    <script src="../js/quiz.js"></script>
+    <script>
+        function figyelmeztet(){
+            alert("Az oldal megjelenítése sok memóriát igényel, kérem legyen türelemmel!")
+        }
+        
+    </script>
+    <header id="ugras"> 
+            <h1>The walking dead</h1> 
+    </header> 
+    <nav>
+        <ul>
+            <li><a href="index.html">Kezdőlap</a></li>
+            <li><a href="szereplok.html">Főszereplők</a></li>
+            <li><a href="quiz.html" id="current">Melyik karakter lennél?</a></li>
+            <li><a href="universe.html">Egyéb művek</a></li>
+            <li><a href="kerdoiv.html">Kérdőív</a></li>
+        </ul>
+    </nav>
+    <main> 
+        <article> 
+            <script>
+            </script> 
+            <form id="quiz">
+                <p>Válassz egy színt!</p>
+                <div>
+                    <figure>
+                        <label>
+                            <img src="../quiz/citrom.jpg" alt="citrom" class="quiz"><br><input type="radio" name="szin" value="a" id="valasz">
+                        </label>
+                    </figure>
+
+                    <figure>
+                        <label>
+                            <img src="../quiz/narancs.jpg" alt="narancs" class="quiz"><br><input type="radio" name="szin" value="b" id="szin">
+                        </label>
+                    </figure>
+                
+                    <figure>
+                        <label>
+                            <img src="../quiz/kékes.jpg" alt="kék" class="quiz"><br><input type="radio" name="szin" value="c" id="szin">
+                        </label>
+                    </figure>
+               
+                    <figure>
+                        <label>
+                            <img src="../quiz/piros.jpg" alt="piros" class="quiz"><br><input type="radio" name="szin" value="d" id="szin">
+                        </label>
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <label>
+                            <img src="../quiz/pink.jpg" alt="pink" class="quiz"><br><input type="radio" name="szin" value="e" id="szin">
+                        </label>
+                    </figure>
+
+                    <figure>
+                        <label>
+                            <img src="../quiz/zöld.jpg" alt="zöld" class="quiz"><br><input type="radio" name="szin" value="f" id="szin">
+                        </label>
+                    </figure>
+
+                    <figure>
+                        <label>
+                            <img src="../quiz/fekete.jpg" alt="fekete" class="quiz"><br><input type="radio" name="szin" value="g" id="szin">
+                        </label>
+                    </figure>
+
+                    <figure>
+                        <label>
+                            <img src="../quiz/feher.jpg" alt="feher" class="quiz"><br><input type="radio" name="szin" value="h" id="szin">
+                        </label>
+                    </figure>
+                </div>
+
+                <p>Válassz egy állatot!</p>
+                <div>
+                    <figure>
+                        <label>
+                            <img src="../quiz/boci.jpg" alt="boci" class="quiz"><br><input type="radio" name="allat" value="a" id="allat">
+                        </label>
+                    </figure>
+
+                    <figure>
+                        <label>
+                            <img src="../quiz/cica.jpg" alt="cica" class="quiz"><br><input type="radio" name="allat" value="b" id="allat">
+                        </label>
+                    </figure>
+                
+                    <figure>
+                        <label>
+                            <img src="../quiz/madár.jpg" alt="madár" class="quiz"><br><input type="radio" name="allat" value="c" id="allat">
+                        </label>
+                    </figure>
+                
+                    <figure>
+                        <label>
+                            <img src="../quiz/kutya.jpg" alt="kutya" class="quiz"><br><input type="radio" name="allat" value="d" id="allat">
+                        </label>
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <label>
+                            <img src="../quiz/roka.jpg" alt="róka" class="quiz"><br><input type="radio" name="allat" value="e" id="allat">
+                        </label>
+                    </figure>
+
+                    <figure>
+                        <label>
+                            <img src="../quiz/beka.jpg" alt="béka" class="quiz"><br><input type="radio" name="allat" value="f" id="allat">
+                        </label>
+                    </figure>
+                    <figure>
+                        <label>
+                            <img src="../quiz/panda.jpg" alt="panda" class="quiz"><br><input type="radio" name="allat" value="g" id="allat">
+                        </label>
+                    </figure>
+                    
+                    <figure>
+                        <label>
+                            <img src="../quiz/mokus.jpg" alt="mokus" class="quiz"><br><input type="radio" name="allat" value="h" id="allat">
+                        </label>
+                    </figure>
+                </div>
+
+                <p>Válassz egy helyszínt!</p>
+                <div>
+                    <figure>
+                        <label>
+                            <img src="../quiz/terminus.jpg" alt="terminus" class="quiz"><br><input type="radio" name="hely" value="a" id="hely">
+                        </label>
+                    </figure>
+
+                    <figure>
+                        <label>
+                            <img src="../quiz/atlanta.jpg" alt="atlanta" class="quiz"><br><input type="radio" name="hely" value="b" id="hely">
+                        </label>
+                    </figure>
+                
+                    <figure>
+                        <label>
+                            <img src="../quiz/commonwealth.jpg" alt="commonwealth" class="quiz"><br><input type="radio" name="hely" value="c" id="hely">
+                        </label>
+                    </figure>
+                
+                    <figure>
+                        <label>
+                            <img src="../quiz/alexandria.jpg" alt="alexandria" class="quiz"><br><input type="radio" name="hely" value="d" id="hely">
+                        </label>
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <label>
+                            <img src="../quiz/sanctuary.jpg" alt="sanctuary" class="quiz"><br><input type="radio" name="hely" value="e" id="hely">
+                        </label>
+                    </figure>
+
+                    <figure>
+                        <label>
+                            <img src="../quiz/oceanside.jpg" alt="oceanside" class="quiz"><br><input type="radio" name="hely" value="f" id="hely">
+                        </label>
+                    </figure>
+                    <figure>
+                        <label>
+                            <img src="../quiz/hilltop.jpg" alt="hilltop" class="quiz"><br><input type="radio" name="hely" value="g" id="hely">
+                        </label>
+                    </figure>
+                    
+                    <figure>
+                        <label>
+                            <img src="../quiz/prison.jpg" alt="prison" class="quiz"><br><input type="radio" name="hely" value="h" id="hely">
+                        </label>
+                    </figure>
+                </div>
+
+                <p>Válassz egy ételt!</p>
+                <div>
+                    <figure>
+                        <label>
+                            <img src="../quiz/cookies.jpg" alt="cookies" class="quiz"><br><input type="radio" name="etel" value="a" id="etel">
+                        </label>
+                    </figure>
+
+                    <figure>
+                        <label>
+                            <img src="../quiz/protein_bar.jpg" alt="protein_bar" class="quiz"><br><input type="radio" name="etel" value="b" id="etel">
+                        </label>
+                    </figure>
+                
+                    <figure>
+                        <label>
+                            <img src="../quiz/pancake.jpg" alt="pancake" class="quiz"><br><input type="radio" name="etel" value="c" id="etel">
+                        </label>
+                    </figure>
+                
+                    <figure>
+                        <label>
+                            <img src="../quiz/lakoma.jpg" alt="lakoma" class="quiz"><br><input type="radio" name="etel" value="d" id="etel">
+                        </label>
+                    </figure>
+                </div>
+                <div>
+                    <figure>
+                        <label>
+                            <img src="../quiz/sphagetti.jpg" alt="sphagetti" class="quiz"><br><input type="radio" name="etel" value="e" id="etel">
+                        </label>
+                    </figure>
+
+                    <figure>
+                        <label>
+                            <img src="../quiz/cucumber.jpg" alt="uborka" class="quiz"><br><input type="radio" name="etel" value="f" id="etel">
+                        </label>
+                    </figure>
+                    <figure>
+                        <label>
+                            <img src="../quiz/sandwich.jpg" alt="sandwich" class="quiz"><br><input type="radio" name="etel" value="g" id="etel">
+                        </label>
+                    </figure>
+                    
+                    <figure>
+                        <label>
+                            <img src="../quiz/chilis.jpg" alt="chilis" class="quiz"><br><input type="radio" name="etel" value="h" id="etel">
+                        </label>
+                    </figure>
+                </div>
+            <button type="button"  id="teszt" onclick="result()" class="gomb">Beküldés</button>
+                
+            </form>
+
+            <div id="carol" class="eredmeny"><img src="../karakterek/carol.jpg" class="result" alt="Carol"><p>Gratulálok! Te Carol lennél a válaszaid alapján</p></div>
+
+            <div id="michonne" class="eredmeny"><img src="../karakterek/michonne.jpg" class="result" alt="Michonne"><p>Gratulálok! Te Michonne lennél a válaszaid alapján</p></div>
+
+            <div id="carl" class="eredmeny"><img src="../karakterek/carl.jpg" class="result" alt="Carl"><p>Gratulálok! Te Carl lennél a válaszaid alapján</p></div>
+
+            <div id="rick" class="eredmeny"><img src="../karakterek/rick.jpg" class="result" alt="Rick"><p>Gratulálok! Te Rick lennél a válaszaid alapján</p></div>
+
+            <div id="negan" class="eredmeny"><img src="../karakterek/negan.jpg" class="result" alt="Negan"><p>Gratulálok! Te Negan lennél a válaszaid alapján</p></div>
+
+            <div id="eugene" class="eredmeny"><img src="../karakterek/eugene.jpg" class="result" alt="Eugene"><p>Gratulálok! Te Eugene lennél a válaszaid alapján</p></div>
+
+            <div id="maggie" class="eredmeny"><img src="../karakterek/maggie.jpg" class="result" alt="Maggie"><p>Gratulálok! Te Maggie lennél a válaszaid alapján</p></div>
+
+            <div id="daryl" class="eredmeny"><img src="../karakterek/daryl.jpg" class="result" alt="Daryl"><p>Gratulálok! Te Daryl lennél a válaszaid alapján</p></div>
+
+            <div id="morgan" class="eredmeny"><img src="../karakterek/morgan.jpg" class="result" alt="Morgan"><p>Gratulálok! Te Morgan lennél a válaszaid alapján</p></div>
+
+            <div id="glenn" class="eredmeny"><img src="../karakterek/glenn.jpg" class="result" alt="Glenn"><p>Gratulálok! Te Glenn lennél a válaszaid alapján</p></div>
+
+            <div id="abraham" class="eredmeny"><img src="../karakterek/abraham.jpg" class="result" alt="Abraham"><p>Gratulálok! Te Abraham lennél a válaszaid alapján</p></div>
+
+            <div id="rosita" class="eredmeny"><img src="../karakterek/rosita.jpg" class="result" alt="Rosita"><p>Gratulálok! Te Rosita lennél a válaszaid alapján</p></div>
+
+            <div id="tara" class="eredmeny"><img src="../karakterek/tara.jpg" class="result" alt="Tara"><p>Gratulálok! Te Tara lennél a válaszaid alapján</p></div>
+
+            <div id="jesus" class="eredmeny"><img src="../karakterek/jesus.jpg" class="result" alt="Jesus"><p>Gratulálok! Te Jesus lennél a válaszaid alapján</p></div>
+
+            <div id="ezekiel" class="eredmeny"><img src="../karakterek/ezekiel.jpg" class="result" alt="Ezekiel"><p>Gratulálok! Te Ezekiel lennél a válaszaid alapján</p></div>
+
+        </article>
+    <div class="ugrik"><a href="#ugras"><i class="icon-chevron_up"></i></a></div>
+    </main> 
+    <footer> 
+
+        <p>Beadandónak készült</p> 
+        <p>Készítette: Kis Virág Anna</p> 
+    </footer> 
+</body> 
+</html>

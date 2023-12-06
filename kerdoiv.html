@@ -1,0 +1,76 @@
+<!DOCTYPE html> 
+<html lang="hu"> 
+<head> <title>The walking dead-kerdoiv</title>
+    <meta name="author" content="Kis Virág Anna">
+    <meta charset="UTF-8">
+    <meta name="copyright" content="Beadandó">
+    <link href="../css/style.css" rel="stylesheet" >
+    <link href="../css/mfglabs_iconset.css" rel="stylesheet" >
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script src="../jquery-3.7.1.js"></script>
+    <script src="../dist/jquery.validate.js"></script>
+    <link rel="icon" type="image/x-ico" href="../favicon.ico">
+    <script src="../js/validal.js"></script>
+</head> 
+<body>
+    <header id="ugras"> 
+            <h1>The walking dead</h1> 
+    </header> 
+    <nav>
+        <ul>
+            <li><a href="index.html">Kezdőlap</a></li>
+            <li><a href="szereplok.html">Főszereplők</a></li>
+            <li><a href="quiz.html">Melyik karakter lennél?</a></li>
+            <li><a href="universe.html">Egyéb művek</a></li>
+            <li><a href="kerdoiv.html" id="current">Kérdőív</a></li>
+        </ul>
+    </nav>
+    <main> 
+        <section> 
+        <form method="post" action="http://szamtud.uni-corvinus.hu/receive.php" id="myform" novalidate>
+            <p class="karakter">Kutatás</p>
+            <p><label for="email">Kérlek add meg az email címedet! </label><input type="email" size="15" class="box" name="email" id="email"></p>
+            <label for="szuletes">Mikor születtél?: </label><input type="date" name="szuletes" class="box" id="szuletes"><br>
+            <p>Láttad már valamelyik The Walking Dead sorozatot?</p> 
+            <label for="nezi"> Igen</label><input type="radio" name="nezi"  value="igen" id="nezi"><br>
+            <label for="nezi">Nem</label><input type="radio" name="nezi" value="nem" id="nezi"> <br>
+            <p>Ha igen akkor melyik(ek)et?</p>
+            <label><input type="checkbox" name="sorozat1" value="the_waking_dead">The Walking Dead</label><br>
+            <label><input type="checkbox" name="sorozat2" value="fear_the_waking_dead" >Fear The Walking Dead</label><br>
+            <label><input type="checkbox" name="sorozat3" value="world_beyond">The Walking Dead: World Beyond</label><br>
+            <label><input type="checkbox" name="sorozat4" value="dead_city">The Walking Dead: Dead City</label><br>
+            <label><input type="checkbox" name="sorozat5" value="tales">Tales Of The Walking Dead</label><br>
+            <p><label>Melyik volt a kedvenc évadod a The walking dead-ben? <input type="number" name="kedvenc" value="evad" min="1" max="11" class="box"></label></p>
+            <label>Melyik volt a kedvenc helyszíned a The walking dead-ben? <input type="text" list="pelda" name="helyszinek" placeholder="Írd be a kedvencedet." autofocus class="box">
+                <datalist id="pelda">
+                    <option value="Prison">
+                    <option value="Woodburry">
+                    <option value="Farm">
+                    <option value="Atlanta">
+                    <option value="Sanctuary">
+                    <option value="Alexandria">
+                    <option value="Hilltop">
+                    <option value="Kingdom">
+                    <option value="Oceanside">
+                    <option value="Commonwealth"></option>
+                </datalist> </label>
+            <p><label>Ki a kedvenc karaktered? <input type="text" size="15" class="box"></label></p>
+            <p>Tervezed nézni majd valamelyik sorozatot?</p> 
+            <label for="nezni_fogja">Igen</label><input type="radio" name="nezni_fogja" value="igen" id="nezni_fogja"> <br>
+            <label for="nezni_fogja">Nem</label><input type="radio" name="nezni_fogja" value="nem" id="nezni_fogja"> <br>
+            <p>Feliratkozol hírlevelünkre a további tartalmakért?</p>
+            <label for="hirlevel">Igen</label><input type="radio" name="hirlevel" value="igen" id="hirlevel"><br>
+            <label for="hirlevel">Nem</label><input type="radio" name="hirlevel" value="nem" id="hirlevel"><br>
+            <p><input type="submit" value="Elküldés" class="gomb">
+            <input type="reset" value="Alaphelyzet" class="gomb"></p>
+        </form>
+        </section>
+    <div class="ugrik"><a href="#ugras"><i class="icon-chevron_up"></i></a></div>
+    </main> 
+    <footer> 
+
+        <p>Beadandónak készült</p> 
+        <p>Készítette: Kis Virág Anna</p> 
+    </footer> 
+</body> 
+</html>

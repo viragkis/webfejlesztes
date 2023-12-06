@@ -1,0 +1,6 @@
+Kis Virág Anna
+URL:
+A weboldalam témája a The walking dead című amerikai sorozat. Az oldalon a sorozatot ismertetem évadait, szereplőit mutatom be.
+Saját js kódom található a Melyik karakter lennél (quiz.html) oldalon található. Célja, hogy a felhasználó különböző kategóriákban történő választásának eredményeképp a sorozat egyik karakterét kapja. A quizben radio gombos elemek közül választ a felhasználok, amelyekhez különböző value-kat rendeltem. A javascript kódban a létrehozott változók értékét növeltem, a value-k függvényében, majd ezeket összehasonlítva hívtam meg az eredményt.
+Az oldalon pár űrlapelemet kivéve Amatic-Bold beűtípust használtam.
+források: https://walkingdead.fandom.com/wiki/The_Walking_Dead_Wiki
